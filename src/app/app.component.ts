@@ -8,3 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   constructor() {}
 }
+
+export class MenuComponent {
+  menuType: string = 'push';
+}
